@@ -369,3 +369,11 @@
         .img-logo{
             max-width: 100px;
         }
+
+        /* 🌐 Media Query para teléfonos (modo retrato y paisaje) */
+@media only screen and (max-width: 767px) {
+  /* 🔹 Aquí pones todo lo que quieres que cambie solo en celular */
+.container-inicio-btn a{
+margin: 5px;
+}
+}
